@@ -9,6 +9,19 @@ $_SESSION["saludo"]="Hola mundo";*/
         <title></title>
     </head>
     <body>
-        <a href="revision"> Revisi&oacute;n sesi&oacute;n </a>
+        <a href="revision.php"> Revisi&oacute;n sesi&oacute;n </a>
+ 
+        <?php
+        echo '<br>';
+        echo md5('#holamundo&');
+        echo '<br>';
+        echo md5('holamundo');
+        echo '<br>';
+        echo md5('HoLaMundo');
+        echo '<br>';
+        echo md5('HOLAMundo');
+        echo '<br>';
+        ?>
+        
     </body>
 </html>
